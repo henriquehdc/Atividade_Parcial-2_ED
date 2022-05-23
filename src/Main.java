@@ -15,7 +15,7 @@ public class Main {
                 String nome,validade;
                 int quantidade;
                 
-                nome = JOptionPane.showInputDialog("Nome do produto para cadastro: ");
+                nome = JOptionPane.showInputDialog("Nome do produto para cadastro: ").trim();
                 validade = JOptionPane.showInputDialog("Data de validade do produto:");
                 quantidade = Integer.parseInt(JOptionPane.showInputDialog("Quantidade em estoque do produto: "));
                       
