@@ -16,7 +16,7 @@ public class Main {
                 int quantidade;
                 
                 nome = JOptionPane.showInputDialog("Nome do produto para cadastro: ").trim();
-                validade = JOptionPane.showInputDialog("Data de validade do produto:");
+                validade = JOptionPane.showInputDialog("Data de validade do produto (ANO/MES/DIA):");
                 quantidade = Integer.parseInt(JOptionPane.showInputDialog("Quantidade em estoque do produto: "));
                       
                 estoque.Inserir(new Produto(nome,validade,quantidade));
